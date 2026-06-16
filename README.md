@@ -42,8 +42,5 @@ Once flashed, the board enumerates as an HID mouse, so re-flashing usually
 needs the BOOTSEL button.
 Descriptor overrides must be applied before USB enumeration — the sketch
 handles re-enumeration automatically on the RP2350 core.
-
-Want me to add a short "Usage example" section showing the `mouseMove()` / `mouseLeftClick()` calls, or a wiring diagram description for the GP14/GP15 switch?
-  { "Custom A", 0xCAFE, 0x4001, "MyLab", "Custom HID Mouse A" },
   // ...
 };
